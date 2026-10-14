@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+
+  <style>
+    /* Universal selector */
+    * {
+      font-family: Arial;
+    }
+
+    body {
+      background-color: lightgray;
+    }
+
+    h1 {
+      background-color: red;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    h2 {
+      color: purple;
+    }
+
+    /* ===== 1. Basic Box Model ===== */
+    .box1 {
+      width: 300px;
+      height: 100px;
+      background-color: lightblue;
+      padding: 20px;
+      border: 5px solid blue;
+      margin: 30px;
+    }
+
+    /* ===== 2. Padding only ===== */
+    .box2 {
+      background-color: yellow;
+      padding: 50px;
+    }
+
+    /* ===== 3. Margin only ===== */
+    .box3 {
+      background-color: lightgreen;
+      margin: 50px;
+    }
+
+    /* ===== 4. Border styles ===== */
+    .solid  { border: 3px solid black; }
+    .dashed { border: 3px dashed red; }
+    .dotted { border: 3px dotted green; }
+    .double { border: 6px double blue; }
+
+    .borders p {
+      background-color: white;
+      padding: 10px;
+      margin: 15px 0;
+    }
+
+    /* ===== 5. Different sides ===== */
+    .box5 {
+      background-color: orange;
+      padding-top: 10px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      padding-left: 80px;
+
+      margin-top: 20px;
+      margin-left: 100px;
+
+      border-left: 10px solid red;
+      border-bottom: 5px solid black;
+    }
+
+    /* ===== 6. Shorthand ===== */
+    .box6 {
+      background-color: pink;
+      padding: 10px 40px;          /* top-bottom 10, left-right 40 */
+      margin: 10px 20px 30px 40px; /* top right bottom left */
+      border: 2px solid purple;
+    }
+
+    /* ===== 7. Margin auto (center the box) ===== */
+    .box7 {
+      width: 300px;
+      background-color: white;
+      padding: 20px;
+      border: 4px solid green;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    /* ===== 8. Border radius (rounded corners) ===== */
+    .box8 {
+      width: 200px;
+      background-color: red;
+      color: white;
+      padding: 20px;
+      border: 3px solid black;
+      border-radius: 20px;
+    }
+
+    /* ===== 9. box-sizing ===== */
+    .normal {
+      width: 300px;
+      padding: 30px;
+      border: 5px solid black;
+      background-color: lightcoral;
+      margin-bottom: 20px;
+    }
+
+    .border-box {
+      width: 300px;
+      padding: 30px;
+      border: 5px solid black;
+      background-color: lightseagreen;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>CSS Box Model</h1>
+
+  <h2>1. Content + Padding + Border + Margin</h2>
+  <div class="box1">This is a basic box. It has all four parts of the box model.</div>
+
+  <h2>2. Padding (space inside the box)</h2>
+  <div class="box2">This box has 50px of padding.</div>
+
+  <h2>3. Margin (space outside the box)</h2>
+  <div class="box3">This box has 50px of margin.</div>
+
+  <h2>4. Border styles</h2>
+  <div class="borders">
+    <p class="solid">Solid border</p>
+    <p class="dashed">Dashed border</p>
+    <p class="dotted">Dotted border</p>
+    <p class="double">Double border</p>
+  </div>
+
+  <h2>5. Different values on each side</h2>
+  <div class="box5">Padding, margin and border are different on every side.</div>
+
+  <h2>6. Shorthand</h2>
+  <div class="box6">Short way: padding and margin with 2 or 4 values.</div>
+
+  <h2>7. Margin auto (center)</h2>
+  <div class="box7">This box is in the center of the page.</div>
+
+  <h2>8. Border radius</h2>
+  <div class="box8">A box with rounded corners.</div>
+
+  <h2>9. box-sizing</h2>
+  <div class="normal">Normal: width is 300px, but padding and border make it bigger.</div>
+  <div class="border-box">border-box: width stays 300px.</div>
+
+</body>
+</html>
