@@ -1,38 +1,166 @@
 # 🌐 Web Development Journey
 
-> Documenting my daily practice as I learn web development.
+### Learning by Building, Growing by Practicing.
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Welcome to my Web Development Journey! This repository documents my daily coding practice, learning progress, practical exercises, and projects as I develop my skills in Front-End Web Development.
 
-## 👋 About This Repo
+I believe in learning by doing — writing code, exploring new technologies, solving problems, and building projects through consistent practice.
 
-This repository contains my daily coding practice files as I learn front-end web development. I come from a background in C++, WordPress, and Digital Marketing, and this repo documents my hands-on practice, day by day.
+---
 
-## 🗂️ Repo Structure
+## 👨‍💻 About Me
 
-- **html/** → HTML practice files
-- **css/** → CSS practice files
-- **javascript/** → JavaScript practice files
-- **README.md** → This file
+Hi, I'm **Bilawal Ali Faiz**, a BS Computer Science student and aspiring Web Developer from Islamabad, Pakistan.
 
-## 📈 What I've Done So Far
+I have experience with C++, WordPress Development, and Digital Marketing. Currently, I am focusing on improving my Front-End Development skills through structured learning and hands-on coding practice.
 
-| Day | Date | Topic | Description |
-|-----|------|-------|--------------|
-| 01  | 18 Sep 2026 | HTML basics | Built a basic HTML page with a heading and paragraph |
-| 01  | 18 Sep 2026 | CSS styling | Styled the page with a red background, rounded container, and white heading text |
-| 01  | 18 Sep 2026 | JavaScript `alert()` | Added a welcome alert popup that displays on page load |
+My goal is to become a professional Web Developer and build modern, responsive, and user-friendly websites.
 
-*(This table is updated only after a task is actually completed.)*
+---
 
-## 🧠 Learning Source
+## 🛠️ Technologies & Skills
 
-Following a structured HTML, CSS & JavaScript playlist on YouTube, alongside hands-on daily practice.
+| Technology | Focus |
+|---|---|
+| HTML5 | Structure and Semantic Elements |
+| CSS3 | Styling, Layouts and Responsive Design |
+| JavaScript | Programming Fundamentals |
+| C++ | Programming Fundamentals |
+| WordPress | Website Development |
+| Git & GitHub | Version Control |
+| Digital Marketing | SEO and Social Media |
 
-## 🤝 Connect
+---
+
+## 📂 Repository Structure
+
+```text
+web-development-journey/
+│
+├── html/
+│   └── HTML Practice Files
+│
+├── css/
+│   ├── Basic CSS
+│   ├── CSS Selectors
+│   ├── Box Model
+│   ├── Flexbox
+│   ├── Grid
+│   ├── Animations
+│   ├── Responsive Design
+│   └── CSS Projects
+│
+├── javascript/
+│   └── JavaScript Practice Files
+│
+└── README.md
+```
+
+---
+
+## 📚 Learning Progress
+
+### HTML5
+- HTML Document Structure
+- Headings and Paragraphs
+- Links and Images
+- Lists and Tables
+- Forms and Input Elements
+- Semantic HTML
+
+### CSS3
+- CSS Selectors and Specificity
+- CSS Box Model
+- Margin, Padding and Borders
+- Fonts, Text and Color Properties
+- CSS Display Property
+- Shadows and Outlines
+- Styling Lists
+- CSS Overflow and Position
+- CSS Sizing Units
+- CSS Variables
+- CSS Media Queries
+- Float and Clear
+- Flexbox and Grid
+- Navigation Bar using Flexbox
+- CSS Transforms and Transitions
+- CSS Animations and Bounce Effects
+- Object-fit and Object-cover
+- CSS Filters
+- Responsive Website Design
+
+### JavaScript
+- JavaScript Fundamentals
+- Basic Programming Concepts
+- Practical Coding Exercises
+
+---
+
+## 🚀 Projects & Practical Work
+
+I believe practical experience is an important part of becoming a better developer. I regularly apply my learning through exercises and small projects.
+
+Some of my practice projects include:
+
+- Multi-Color Website
+- Responsive Website Design
+- CSS Card Design
+- Flexbox Layouts
+- CSS Grid Layouts
+- Responsive Navigation Bar
+- CSS Animation Examples
+- Image Styling and Filter Effects
+
+More projects will be added as I continue learning.
+
+---
+
+## 📅 Learning Progress Tracker
+
+| Learning Area | Status |
+|---|---|
+| HTML Fundamentals | Practiced |
+| CSS Fundamentals | Practiced |
+| CSS Layouts | Practiced |
+| Responsive Design | Practicing |
+| JavaScript | In Progress |
+| Advanced Front-End Development | Upcoming |
+| Real-World Projects | In Progress |
+
+---
+
+## 🎯 My Goals
+
+- Strengthen my HTML, CSS, and JavaScript skills.
+- Build modern and responsive websites.
+- Improve problem-solving abilities.
+- Learn advanced Front-End Development.
+- Work on real-world projects.
+- Become a professional Web Developer.
+- Keep learning and improving every day.
+
+---
+
+## 📖 Learning Resources
+
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [CodeWithHarry](https://www.youtube.com/@CodeWithHarry)
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [W3Schools](https://www.w3schools.com/)
+
+---
+
+## 🤝 Connect With Me
 
 **Bilawal Ali Faiz**
+
 📍 Islamabad, Pakistan
-🔗 [GitHub Profile](https://github.com/BilawalAliFaiz)
+
+- **GitHub:** [@BilawalAliFaiz](https://github.com/BilawalAliFaiz)
+- **LinkedIn:** [Connect with me](YOUR_LINKEDIN_PROFILE_URL)
+
+---
+
+⭐ Thank you for visiting my repository!
+
+**Learning Every Day. Building Every Day. Improving Every Day.**
