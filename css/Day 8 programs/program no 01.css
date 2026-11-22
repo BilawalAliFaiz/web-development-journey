@@ -1,0 +1,129 @@
+
+/* General Styling */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Main Heading */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1d4ed8;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Introduction */
+.intro {
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.8;
+}
+
+/* Cards */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #0f766e;
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 2px solid #0f766e;
+    padding-bottom: 10px;
+}
+
+/* Font Properties */
+.font-family {
+    font-family: Georgia, serif;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+.font-weight {
+    font-weight: 900;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+/* Text Properties */
+.text-align {
+    text-align: center;
+}
+
+.text-decoration {
+    text-decoration: underline;
+    text-decoration-color: #e11d48;
+    text-decoration-thickness: 2px;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.letter-spacing {
+    letter-spacing: 4px;
+}
+
+.text-shadow {
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #bbbbbb;
+}
+
+/* Color Properties */
+.named-color {
+    color: crimson;
+}
+
+.hex-color {
+    color: #2563eb;
+}
+
+.rgb-color {
+    color: rgb(22, 163, 74);
+}
+
+.rgba-color {
+    color: rgba(147, 51, 234, 0.7);
+}
+
+/* Button */
+button {
+    background-color: #1d4ed8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f766e;
+}

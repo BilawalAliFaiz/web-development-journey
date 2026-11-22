@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #123456;
+    margin-bottom: 35px;
+}
+
+.container,
+.cascade-box,
+.example {
+    background-color: white;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #123456;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+.highlight {
+    color: blue;
+}
+
+#special {
+    color: green;
+}
+
+#unique {
+    color: purple;
+}
+
+.cascade-box .text {
+    color: red;
+}
+
+.cascade-box p {
+    color: blue;
+}
+
+.parent {
+    color: darkgreen;
+    font-size: 20px;
+    background-color: #dcfce7;
+    padding: 20px;
+    border-radius: 8px;
+}

@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Master Practice Website</title>
+    <link rel="stylesheet" href="Program no 01.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">CSS Master</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <h1>Learn CSS With Practice</h1>
+        <p>Explore CSS Flexbox, Grid, Animations, Transforms and More.</p>
+        <a href="#topics" class="hero-button">Explore Topics</a>
+    </header>
+
+    <section class="section" id="topics">
+
+        <h2 class="section-title">CSS Topics</h2>
+
+        <div class="grid-container">
+
+            <div class="topic-card card-one">
+                <h3>CSS Selectors</h3>
+                <p>Learn element, class, ID and advanced selectors.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="topic-card card-two">
+                <h3>CSS Flexbox</h3>
+                <p>Arrange elements using flexible layouts.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="topic-card card-three">
+                <h3>CSS Grid</h3>
+                <p>Create rows and columns for website layouts.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="topic-card card-four">
+                <h3>CSS Transforms</h3>
+                <p>Rotate, scale, move and skew HTML elements.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="topic-card card-five">
+                <h3>CSS Transitions</h3>
+                <p>Create smooth changes between CSS styles.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="topic-card card-six">
+                <h3>CSS Animations</h3>
+                <p>Make elements move with CSS animations.</p>
+                <button>Learn More</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section colors-section">
+
+        <h2 class="section-title">Multi Color Website</h2>
+
+        <div class="color-container">
+            <div class="color-box color-red">Red</div>
+            <div class="color-box color-blue">Blue</div>
+            <div class="color-box color-green">Green</div>
+            <div class="color-box color-purple">Purple</div>
+            <div class="color-box color-orange">Orange</div>
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">CSS Float and Clear</h2>
+
+        <div class="float-container">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Nature" class="float-image">
+
+            <p>
+                CSS Float allows elements to move to the left or right
+                of their container. Text can wrap around floated elements.
+                The Clear property controls how elements behave around
+                floated elements.
+            </p>
+
+            <div class="clear-box">
+                This element uses clear: both.
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">CSS Transform and Transition</h2>
+
+        <div class="transform-container">
+            <div class="transform-box rotate-box">Rotate</div>
+            <div class="transform-box scale-box">Scale</div>
+            <div class="transform-box translate-box">Translate</div>
+            <div class="transform-box skew-box">Skew</div>
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">CSS Animations</h2>
+
+        <div class="animation-container">
+            <div class="bounce-box">Bounce</div>
+            <div class="moving-box">Moving</div>
+            <div class="pulse-box">Pulse</div>
+        </div>
+
+    </section>
+
+    <section class="section" id="gallery">
+
+        <h2 class="section-title">Object Fit and CSS Filters</h2>
+
+        <div class="gallery">
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600" alt="Mountain">
+                <h3>Object Cover</h3>
+                <p>object-fit: cover</p>
+            </div>
+
+            <div class="gallery-card">
+                <img class="contain-image" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" alt="Nature">
+                <h3>Object Contain</h3>
+                <p>object-fit: contain</p>
+            </div>
+
+            <div class="gallery-card">
+                <img class="grayscale-image" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600" alt="Lake">
+                <h3>Grayscale Filter</h3>
+                <p>filter: grayscale(100%)</p>
+            </div>
+
+            <div class="gallery-card">
+                <img class="blur-image" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" alt="Forest">
+                <h3>Blur Filter</h3>
+                <p>filter: blur(3px)</p>
+            </div>
+
+            <div class="gallery-card">
+                <img class="brightness-image" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600" alt="Sunrise">
+                <h3>Brightness Filter</h3>
+                <p>filter: brightness(130%)</p>
+            </div>
+
+            <div class="gallery-card">
+                <img class="sepia-image" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600" alt="Desert">
+                <h3>Sepia Filter</h3>
+                <p>filter: sepia(100%)</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">CSS Float Layout</h2>
+
+        <div class="layout-container">
+            <div class="layout-left">Left Sidebar</div>
+            <div class="layout-main">Main Content</div>
+            <div class="layout-right">Right Sidebar</div>
+            <div class="layout-footer">Footer</div>
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">CSS Flexbox Practice</h2>
+
+        <div class="flex-container">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>React</div>
+        </div>
+
+    </section>
+
+    <footer id="contact">
+        <h2>CSS Master Practice</h2>
+        <p>Keep Learning, Keep Practicing!</p>
+        <p>© 2026 CSS Practice Website</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+header {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #123456;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box h2 {
+    color: #123456;
+}
+
+.px-box {
+    width: 250px;
+    font-size: 16px;
+}
+
+.rem-box {
+    width: 16rem;
+    font-size: 1.2rem;
+}
+
+.em-box {
+    width: 16em;
+    font-size: 1em;
+}
+
+.percent-box {
+    width: 40%;
+    font-size: 100%;
+}
+
+.vw-box {
+    width: 30vw;
+    font-size: 2vw;
+}
+
+.vh-box {
+    height: 25vh;
+    width: 250px;
+}
+
+.full-screen {
+    height: 100vh;
+    background-color: #dbeafe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.full-screen h2 {
+    color: #123456;
+    font-size: 3rem;
+}
+
+.full-screen p {
+    font-size: 1.2rem;
+}

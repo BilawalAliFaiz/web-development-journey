@@ -1,0 +1,145 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f1f5f9;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #123456;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 18px;
+    color: #dbeafe;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    color: #123456;
+    text-align: center;
+    font-size: 23px;
+    border-bottom: 2px solid #123456;
+    padding-bottom: 10px;
+}
+
+.font1 {
+    font-family: Arial, sans-serif;
+}
+
+.font2 {
+    font-weight: bold;
+}
+
+.font3 {
+    font-style: italic;
+}
+
+.font4 {
+    font-size: 24px;
+}
+
+.text1 {
+    text-align: left;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.text3 {
+    text-align: right;
+}
+
+.text4 {
+    text-decoration: underline;
+}
+
+.text5 {
+    text-transform: uppercase;
+}
+
+.color1 {
+    color: red;
+}
+
+.color2 {
+    color: blue;
+}
+
+.color3 {
+    color: green;
+}
+
+.color4 {
+    color: purple;
+}
+
+.color5 {
+    color: orange;
+}
+
+.about {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #dbeafe;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.about h2 {
+    color: #123456;
+    font-size: 28px;
+}
+
+.about p {
+    color: #334155;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+button {
+    background-color: #123456;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}

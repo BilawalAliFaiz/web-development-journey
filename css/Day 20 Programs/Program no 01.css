@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+header {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #123456;
+    margin-top: 35px;
+}
+
+.static-box {
+    position: static;
+    background-color: #dbeafe;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.relative-box {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background-color: #dcfce7;
+    padding: 20px;
+    border: 2px solid green;
+    width: 250px;
+}
+
+.parent-box {
+    position: relative;
+    height: 200px;
+    background-color: #fef3c7;
+    border: 2px solid orange;
+    padding: 20px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: #f97316;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #123456;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: #7c3aed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.content {
+    height: 900px;
+    padding: 20px;
+    line-height: 2;
+    background-color: #e2e8f0;
+    margin-top: 20px;
+}

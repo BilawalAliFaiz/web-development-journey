@@ -1,0 +1,70 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+h1 {
+    text-align: center;
+    color: #123456;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    width: 280px;
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid #123456;
+    border-radius: 10px;
+}
+
+.box h2 {
+    color: #123456;
+    font-size: 20px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.visible-box {
+    overflow: visible;
+}
+
+.hidden-box {
+    overflow: hidden;
+}
+
+.scroll-box {
+    overflow: scroll;
+}
+
+.auto-box {
+    overflow: auto;
+}
+
+.x-box {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.x-box p {
+    width: 450px;
+}
